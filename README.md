@@ -1,25 +1,43 @@
+## Release Candidate Staging Area
+
+## ##     SAMPLE ONLY     ##
+For "Private" distribution only
+This page will be edited before it is publically distributed
+Some links below will change from MarlinDev to Marlin at that time
+
+Areas annotated by <<< NOTE: ... >>> need to be completed.
+
+Edits to this page may be submitted to this branch. They will NOT appear in the permanent code base.
+
+
+Everything above this line will be deleted
+
 # Marlin 3D Printer Firmware
 <img align="right" src="Documentation/Logo/Marlin%20Logo%20GitHub.png" />
 
  Documentation has moved to [marlinfirmware.org](http://www.marlinfirmware.org).
 
-## Development Only
+## Release Candidate
 
 __Not for production use – use with caution!__
 
-The [dev branch](https://github.com/MarlinFirmware/MarlinDev/tree/dev) contains the most up-to-date Marlin code. When reporting any issues, please check to see if they are resolved in this branch first. But let us know if issues exist in tagged releases so that we can document and patch them.
+For the latest tagged version of Marlin (currently 1.0.2 – January 2015) you should switch to the [Release branch](https://github.com/MarlinFirmware/Marlin/tree/Release).
 
-## Testing
-The [RC branch](https://github.com/MarlinFirmware/MarlinDev/tree/RC) will contain the latest pre-release candidate.
+[This branch, "RC"](https://github.com/MarlinFirmware/MarlinDev/tree/RC), is our current pre-release candidate.
 
+Future development takes place in the [MarlinDev repository](https://github.com/MarlinFirmware/MarlinDev/).
+
+## Known Issues
+
+
+ <<< NOTE: Content missing >>>
 ## Submitting Patches
-Development patches should be submitted as a Pull Request against the [master](https://github.com/MarlinFirmware/MarlinDev/tree/master) branch
- 
-For the latest tagged version of Marlin (currently 1.0.2 – January 2015) you should switch to the [Release Repository](https://github.com/MarlinFirmware/Marlin).
+Proposed patches should be submitted as a Pull Request against the [RCBugFix](https://github.com/MarlinFirmware/MarlinDev/tree/RCBugFix) branch
 
-## Current Status: Bug Fixing
 
-Marlin development is being accelerated to catch up with a long list of issues. Check the Issues and Pull Requests links on the right to to see what we are currently working on.
+## Current Status: Testing
+
+Please test this firmware and inform us of any issues where it fails to perfor
 
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/2224/badge.svg)](https://scan.coverity.com/projects/2224)
 [![Travis Build Status](https://travis-ci.org/MarlinFirmware/MarlinDev.svg)](https://travis-ci.org/MarlinFirmware/MarlinDev)
