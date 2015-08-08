@@ -1,6 +1,12 @@
 ## Release Candidate Staging Area
 
-## ##     SAMPLE ONLY     ##
+## ##                SAMPLE ONLY                ##
+
+## ##                "STALE CODE"                ##
+
+## DO NOT EVEN THINK ABOUT
+## USING THE CODE FROM THIS BRANCH
+
 For "Private" distribution only
 This page will be edited before it is publically distributed
 Some links below will change from MarlinDev to Marlin at that time
