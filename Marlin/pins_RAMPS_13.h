@@ -77,6 +77,8 @@
   #endif
 #elif MB(RAMPS_13_EEF) || MB(RAMPS_13_SF)
   #define FAN_PIN           8
+  #elif MB(RAMPS_13_EEB)
+  #define FAN_PIN           -1
 #else
   #define FAN_PIN           4 // IO pin. Buffer needed
 #endif
